@@ -43,13 +43,45 @@ img{
     margin-right: 100px;
 }
 header{
-    margin: 150px 0px 40px 20px;
+    margin: 100px 0px 40px 20px;
 }
 button{
     margin-bottom: 50px;
+    margin-left: 20px;
     background-color: rgb(237, 122, 252);
     border-radius: 4px;
   box-shadow: lightpink 5px 5px 10px;
+}
+.search {
+    width: 70%;
+    margin: auto;
+    position: relative;
+    margin-top: 40px;
+}
+
+.search .searchbutton {
+    background: transparent;
+    width: 5%;
+    padding: 5px 10px;
+    position: absolute;
+    left: 0px;
+    border: 0;
+    box-shadow: transparent 0px 0px 0px;
+    margin-left: 3px;
+}
+
+.search .searchterm {
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px 10px;
+    border: 1px solid #000;
+    padding-left: 5%;
+}
+b{
+    margin-left: 20px;
+}
+p{
+    margin-left: 20px;
 }
 footer{
     background-color: black;
@@ -58,7 +90,5 @@ footer{
 #footer-text{
     color:white; 
     font-weight: 100; 
-    font-family: monospace;
     padding-top: 7px;
-
 }

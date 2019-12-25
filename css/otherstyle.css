@@ -38,3 +38,40 @@ img{
 header{
     margin: 80px 0px 30px 20px;
 }
+footer{
+    background-color: black;
+    height: 40px;
+}
+#footer-text{
+    color:white; 
+    font-weight: 100; 
+    padding-top: 7px;
+}
+.container {
+margin-bottom: 400px;
+}
+b{
+    color: wheat;
+    font-size: 30px;
+}
+.row {
+    margin-bottom: 20px;
+}
+button{
+    margin-bottom: 50px;
+    margin-left: 20px;
+    background-color: rgb(237, 122, 252);
+    border-radius: 4px;
+  box-shadow: lightpink 5px 5px 10px;
+}
+h2{
+    color:rosybrown;
+    text-shadow: 2px 2px 2px;
+    margin: 50px 0px 20px 0px;
+}
+h1{
+    color: rosybrown;
+    text-shadow: 2px 2px 2px;
+}
+
+;
