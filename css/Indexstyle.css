@@ -1,19 +1,19 @@
 body{
     background-color: antiquewhite;
-    background-image: url(../images/285860.jpg);
+    background-image: url(../images/78869.jpg);
     background-repeat: no-repeat;
     background-size: cover;
    
 }
 .nav-links a { 
     margin-right: 2em;
-    color: gray;
+    color: rgb(235, 222, 222);
     text-decoration: navajowhite;
     font-family: Arial, Helvetica, sans-serif ;
 }
 a {
     margin-right: 2em;
-    color: rgb(72, 138, 11);
+    color: rgb(203, 216, 191);
     text-decoration: navajowhite;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -22,7 +22,7 @@ a:hover {
 color: rgb(180, 245, 247);
 text-transform: uppercase;
 }
-nav  {
+nav {
     padding: 0em 2em;
     text-align: right;
     display:flex;
@@ -48,9 +48,10 @@ header{
 button{
     margin-bottom: 50px;
     margin-left: 20px;
-    background-color: rgb(237, 122, 252);
+    background-color: rgb(2, 122, 252);
     border-radius: 4px;
-  box-shadow: lightpink 5px 5px 10px;
+    box-shadow: rgb(182, 240, 255) 5px 5px 10px;
+    margin-right: 0;
 }
 .search {
     width: 70%;
