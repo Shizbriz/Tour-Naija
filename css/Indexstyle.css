@@ -1,6 +1,6 @@
 body{
     background-color: antiquewhite;
-    background-image: url(../images/78869.jpg);
+    background-image: url(../images/1\ \(1\).jpg);
     background-repeat: no-repeat;
     background-size: cover;
    
@@ -16,10 +16,11 @@ a {
     color: rgb(203, 216, 191);
     text-decoration: navajowhite;
     font-family: Arial, Helvetica, sans-serif;
+    transition: 1s;
 }
 
 a:hover {
-color: rgb(180, 245, 247);
+color: rgb(100, 250, 0);
 text-transform: uppercase;
 }
 nav {
@@ -35,6 +36,7 @@ nav {
 }
 img{
     border-radius: 2em;
+    margin-bottom: 8px;
 }
 .tarqwa {
     margin-right: 100px;
@@ -45,13 +47,19 @@ img{
 header{
     margin: 100px 0px 40px 20px;
 }
+h3{
+    text-shadow: aliceblue 2px 2px 2px;
+}
 button{
-    margin-bottom: 50px;
-    margin-left: 20px;
-    background-color: rgb(2, 122, 252);
-    border-radius: 4px;
-    box-shadow: rgb(182, 240, 255) 5px 5px 10px;
-    margin-right: 0;
+    margin: 0px 0px 50px 50px;
+    background-color: rgb(131, 47, 2, 0.8);
+    border-radius: 20px;
+    box-shadow: rgb(65, 53, 65) 2px 2px 5px;
+    padding: 5px;
+    
+}
+a.ann{
+    margin-left: 30px;
 }
 .search {
     width: 70%;
@@ -78,11 +86,19 @@ button{
     border: 1px solid #000;
     padding-left: 5%;
 }
-b{
-    margin-left: 20px;
+
+p, b{
+    margin: 7px 0px 7px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(187, 202, 172, 0.3);
+    color: black;
+    padding: 0px 10px 0px 10px;
+   font-family: 'Backslash Regular' 'Alegreya';
+  font-weight: 700;
+  font-size: 17px;
 }
 p{
-    margin-left: 20px;
+    min-height: 100px;
 }
 footer{
     background-color: black;
